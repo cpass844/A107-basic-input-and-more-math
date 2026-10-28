@@ -21,3 +21,13 @@ Enter your income: 125000
 Your federal income tax is: 24411.7
 
 '''
+income = float(input("What is your income?"))
+import math
+tax1 = 
+tax2 =
+tax3 =
+taxT = tax1 + tax2 + tax3
+net = income - (tax1+tax2+tax3)
+
+print(f"Your federal income tax is: {taxT}")
+print(f"Your net income is {net}")
