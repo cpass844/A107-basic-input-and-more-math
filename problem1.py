@@ -23,9 +23,9 @@ Your federal income tax is: 24411.7
 '''
 income = float(input("What is your income?"))
 import math
-tax1 = 
-tax2 =
-tax3 =
+tax1 = 49020*0.15
+tax2 = (98040-49020)*0.205
+tax3 = (151978 - income)*0.26
 taxT = tax1 + tax2 + tax3
 net = income - (tax1+tax2+tax3)
 

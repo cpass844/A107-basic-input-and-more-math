@@ -24,3 +24,18 @@ Your final amount is $39152.94
 You earned $14152.94 interest
 ```
 '''
+print("Compound Interest Calculator")
+
+p = float(input("What is your principal?"))
+
+r = float(input("What is your interest rate as a percent?"))
+
+n = float(input("Enter the number of compounding periods"))
+
+t = float(input("How long is the investment period in years?"))
+
+import math
+a = p*(1 + ((r/100)/n))**(n*t)
+final = a - p
+print(f"Your final amount is ${a}")
+print(f"You earned ${final} Interest")
