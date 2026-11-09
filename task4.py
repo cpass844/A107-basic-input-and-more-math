@@ -15,3 +15,13 @@ Enter a length in centimeters: 32
 32 centimeters is 1 feet and 1 inches
 ```
 """
+
+cm = float(input("Enter a length in centimeters:"))
+import math
+
+total_inches = cm / 2.54
+ft = math.floor(total_inches / 12)
+rin = round(total_inches % 12)
+
+print(f"{cm} centimeters is {ft} feet and {rin} inches")
+
